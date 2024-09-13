@@ -1,5 +1,5 @@
 # TUGAS 2
-## Implemented CRUD using PHP OOP
+## Menerapkan CRUD menggunakan PHP OOP
 
 - ERD JURNAL :
 
