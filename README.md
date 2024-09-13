@@ -84,3 +84,64 @@ class Database {
 4. Membuat kelas turunan menggunakan konsep pewarisan
 
 ```php
+class Journals extends Database {
+    public function fetchData($studentId = null) {
+        if ($studentId) {
+            $studentId = mysqli_real_escape_string($this->connect, $studentId);
+            $query = "SELECT * FROM journals WHERE student_class_id = '$studentId'";
+        } else {
+            $query = "SELECT * FROM journals";
+        }
+        $result = $this->query($query);
+        $array = [];
+        while ($row = mysqli_fetch_assoc($result)) {
+            $array[] = $row;
+        }
+        return $array;
+    }
+}
+
+class JournalDetails extends Database {
+    public function fetchData() {
+        $query = "SELECT * FROM journal_details";
+        $result = $this->query($query);
+        return mysqli_fetch_all($result, MYSQLI_ASSOC);
+    }
+}
+```
+
+5. Menerapkan polimorfisme untuk minimal 2 role sesuai studi kasus
+
+```php
+class Journals extends Database {
+    public function fetchData($studentId = null) {
+        if ($studentId) {
+            $studentId = mysqli_real_escape_string($this->connect, $studentId);
+            $query = "SELECT * FROM journals WHERE student_class_id = '$studentId'";
+        } else {
+            $query = "SELECT * FROM journals";
+        }
+        $result = $this->query($query);
+        $array = [];
+        while ($row = mysqli_fetch_assoc($result)) {
+            $array[] = $row;
+        }
+        return $array;
+    }
+}
+
+class JournalDetails extends Database {
+    public function fetchData() {
+        $query = "SELECT * FROM journal_details";
+        $result = $this->query($query);
+        return mysqli_fetch_all($result, MYSQLI_ASSOC);
+    }
+}
+class StudentID extends Database {
+    public function fetchData() {
+        $query = "SELECT * FROM journal_details";
+        $result = $this->query($query);
+        return mysqli_fetch_all($result, MYSQLI_ASSOC);
+    }
+}
+```
