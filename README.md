@@ -1,6 +1,15 @@
 # TUGAS 2
 ## Menerapkan CRUD menggunakan PHP OOP
 
+## Tentang Saya
+
+<pre>
+Nama : Noni Aprillia Setyani
+Kelas : TI 2B
+Npm : 230102040
+</pre>
+
+
 - ERD JURNAL :
 
 ![Screenshot (495)](https://github.com/user-attachments/assets/6f50a46b-3ff1-4314-ab2f-29631c91d2bf)
@@ -70,6 +79,13 @@ public function __construct() {
     }
 ```
 
+- PENJELASAN :
+
+Dalam konteks pemrograman berorientasi objek (OOP) di PHP, __construct() adalah metode khusus yang dikenal sebagai constructor. Ini adalah metode yang dipanggil secara otomatis saat objek dari suatu kelas dibuat atau diinstansiasi. __construct() biasanya digunakan untuk menginisialisasi properti atau menjalankan fungsi awal yang diperlukan untuk objek tersebut, termasuk menyambungkan ke database. Constructor digunakan untuk memberikan nilai awal atau melakukan inisialisasi.
+
+Constructor sering kali digunakan untuk membuat koneksi ke database pada saat objek kelas database dibuat. 
+Dengan menggunakan__construct(), kita bisa memastikan bahwa setiap kali instansiasi kelas database dilakukan, koneksi ke database juga akan otomatis terbentuk.
+  
 3. Menerapkan enkapsulasi sesuai logika studi kasus
 
 ```php
@@ -80,6 +96,15 @@ class Database {
     private $db = "jurnal";
     protected $connect;
 ```
+Enkapsulasi adalah salah satu konsep dasar dalam pemrograman berorientasi objek (OOP). Tujuannya adalah untuk menyembunyikan detail internal suatu objek dari luar, dan memberikan cara yang aman untuk mengakses atau mengubah data. Dalam kasus ini, kita menggunakan akses private dan protected pada properti kelas.
+
+Properti : 
+
+- private adalah akses modifier yang hanya memungkinkan properti atau metode diakses di dalam kelas itu sendiri. Properti yang dideklarasikan dengan private tidak bisa diakses dari luar kelas, termasuk oleh kelas anak (subclass).
+
+- protected memungkinkan properti atau metode untuk diakses oleh kelas itu sendiri dan oleh kelas turunannya (subclass), tetapi masih tidak bisa diakses dari luar kelas secara langsung.
+
+- connect(): Metode ini adalah contoh dari cara kita menggunakan properti yang di-enkapsulasi untuk melakukan aksi tertentu, seperti membuat koneksi ke database.
 
 4. Membuat kelas turunan menggunakan konsep pewarisan
 
@@ -109,6 +134,19 @@ class JournalDetails extends Database {
     }
 }
 ```
+
+Journals yang merupakan anak dari kelas Database.
+
+JournalDetails yang juga merupakan anak dari kelas Database.
+
+- 1. Kelas Induk (Database)
+Kita berasumsi bahwa kelas Database menangani segala sesuatu yang berhubungan dengan koneksi dan eksekusi query database. Dengan konsep pewarisan, metode dan properti dalam kelas ini dapat digunakan oleh kelas Journals dan JournalDetails.
+
+- 2. Kelas Anak (Journals)
+Kelas ini mewarisi kelas Database, artinya kelas ini dapat menggunakan properti dan metode yang ada dalam kelas Database seperti $connect dan query() tanpa perlu mendefinisikannya ulang.
+
+- 3. Kelas Anak (JournalDetails)
+Seperti kelas Journals, kelas JournalDetails juga mewarisi properti dan metode dari kelas Database. 
 
 5. Menerapkan polimorfisme untuk minimal 2 role sesuai studi kasus
 
