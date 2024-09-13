@@ -183,3 +183,7 @@ class StudentID extends Database {
     }
 }
 ```
+
+pemrograman mengacu pada kemampuan objek untuk memiliki banyak bentuk atau cara yang berbeda dalam merespons panggilan fungsi yang sama. Dalam konteks kode PHP yang kamu berikan, polimorfisme ditunjukkan melalui pewarisan (inheritance), di mana kelas turunan seperti Journals, JournalDetails, dan StudentID mewarisi kelas induk Database, tetapi setiap kelas turunan memberikan implementasi metode fetchData() yang berbeda.
+
+Polimorfisme memungkinkan objek dari kelas yang berbeda untuk diperlakukan sebagai objek dari kelas induk yang sama. Pada kode ini, semua kelas turunan (Journals, JournalDetails, dan StudentID) mewarisi dari kelas induk Database, dan masing-masing mengimplementasikan metode fetchData() sesuai kebutuhan.
