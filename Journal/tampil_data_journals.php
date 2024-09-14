@@ -14,7 +14,7 @@ $data = $journals->fetchData();
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="mb-4">Data Journals</h1>
+        <h1 class="mb-4">Data Jurnal</h1>
         <table class="table table-striped table-bordered">
             <thead class="table-dark">
                 <tr>
