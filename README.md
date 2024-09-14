@@ -211,4 +211,7 @@ Polimorfisme memungkinkan objek dari kelas yang berbeda untuk diperlakukan sebag
 
 ![code_tampil_student](https://github.com/user-attachments/assets/9e422085-c6ed-4315-8ca7-1350a9f77545)
 
-- Tampilan create_at tanggal ( Date ) 
+- Tampilan create_at tanggal ( Date )
+
+![code_tampil_tanggal](https://github.com/user-attachments/assets/20a9799f-acba-4148-b9da-215416a3b3eb)
+
