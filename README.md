@@ -147,6 +147,13 @@ Seperti kelas Journals, kelas JournalDetails juga mewarisi properti dan metode d
 5. Menerapkan polimorfisme untuk minimal 2 role sesuai studi kasus
 
 ```php
+class Journals extends Database {
+    public function fetchData($date = null) {
+        $query = $date ? "SELECT * FROM journals WHERE DATE(created_at) = '$date'" : "SELECT * FROM journals";
+        $result = $this->query($query);
+        return mysqli_fetch_all($result, MYSQLI_ASSOC);
+    }
+}
 class StudentID extends Database {
     public function fetchData() {
         $query = "SELECT * FROM journal_details";
