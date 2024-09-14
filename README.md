@@ -204,7 +204,8 @@ Polimorfisme memungkinkan objek dari kelas yang berbeda untuk diperlakukan sebag
 ![code_tampil_jurnal_detail](https://github.com/user-attachments/assets/e1425eb0-64fd-44af-9c40-cdfae419bdcf)
 
 - Tampilan Jurnal
-   
+
+![code_tampil_jurnal](https://github.com/user-attachments/assets/49a844f7-2c1e-40de-a3fd-34ab0937454e)
 
 - Tampilan Id kelas mahasiswa 
 
