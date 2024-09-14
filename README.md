@@ -199,8 +199,9 @@ Polimorfisme memungkinkan objek dari kelas yang berbeda untuk diperlakukan sebag
 
 ## CODE TAMPILAN 
 
-- Tampilan jurnal detail 
-
+- Tampilan jurnal detail
+  
+![code_tampil_jurnal_detail](https://github.com/user-attachments/assets/e1425eb0-64fd-44af-9c40-cdfae419bdcf)
 
 - Tampilan Jurnal
    
