@@ -173,6 +173,7 @@ Polimorfisme memungkinkan objek dari kelas yang berbeda untuk diperlakukan sebag
 
 ## OUTPUT MENAMPILKAN SEMUA DATA JURNAL 
 
+![Screenshot (498)](https://github.com/user-attachments/assets/a5770a98-bd17-4e54-8ca6-a7746fd9c6f7)
 
 ## OUTPUT MENAMPILKAN DATA DETAIL JURNAL 
 
