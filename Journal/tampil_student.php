@@ -15,7 +15,7 @@ $data = $Student->fetchData();
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="mb-4">Student</h1>
+        <h1 class="mb-4">Id kelas Siswa</h1>
         <table class="table table-striped table-bordered">
             <thead class="table-dark">
                 <tr>
