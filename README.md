@@ -181,6 +181,7 @@ Polimorfisme memungkinkan objek dari kelas yang berbeda untuk diperlakukan sebag
 
 ## OUTPUT MENAMPILKAN TANGGAL JURNAL 
 
+![Screenshot (502)](https://github.com/user-attachments/assets/71cb4f81-c52f-495b-beac-dab3828d6ce7)
 
 ## OUTPUT MENAMPILKAN ID SISWA 
 
