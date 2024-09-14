@@ -39,7 +39,7 @@ class JournalDetails extends Database {
 }
 class Student extends Database {
     public function fetchData(){
-        $query = "SELECT * FROM journals WHERE student_class_id = 44 ";
+        $query = "SELECT * FROM journals WHERE student_class_id = 41 ";
         $result = $this->query($query);
         return mysqli_fetch_all($result, MYSQLI_ASSOC);
     }
