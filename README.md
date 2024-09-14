@@ -209,5 +209,6 @@ Polimorfisme memungkinkan objek dari kelas yang berbeda untuk diperlakukan sebag
 
 - Tampilan Id kelas mahasiswa 
 
+![code_tampil_student](https://github.com/user-attachments/assets/9e422085-c6ed-4315-8ca7-1350a9f77545)
 
 - Tampilan create_at tanggal ( Date ) 
