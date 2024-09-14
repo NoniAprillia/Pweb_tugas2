@@ -14,6 +14,11 @@ Npm : 230102040
 
 ![Screenshot (495)](https://github.com/user-attachments/assets/6f50a46b-3ff1-4314-ab2f-29631c91d2bf)
 
+- DATABASE 
+
+![Screenshot (504)](https://github.com/user-attachments/assets/3ca5b88f-dcd5-49a3-b2b6-b3c7978d48df)
+
+
 1. Membuat View berbasis OOP, dengan mengambil data dari database MySQL
    
 ```php
