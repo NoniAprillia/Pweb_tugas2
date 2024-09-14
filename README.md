@@ -196,3 +196,16 @@ Polimorfisme memungkinkan objek dari kelas yang berbeda untuk diperlakukan sebag
 
 ![Screenshot (503)](https://github.com/user-attachments/assets/a3b17fe1-e96f-4148-9512-0236b4a71ae6)
 
+
+## CODE TAMPILAN 
+
+- Tampilan jurnal detail 
+
+
+- Tampilan Jurnal
+   
+
+- Tampilan Id kelas mahasiswa 
+
+
+- Tampilan create_at tanggal ( Date ) 
